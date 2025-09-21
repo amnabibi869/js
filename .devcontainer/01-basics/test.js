@@ -1,1 +1,1 @@
-console.log("AMNA")
+console.log("amna")
