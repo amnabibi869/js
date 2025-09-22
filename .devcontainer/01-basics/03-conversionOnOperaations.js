@@ -32,3 +32,14 @@ console.log(booleanIsLoggedIn);
  // agr  koi value dy di jsy {"amna"} to ansr aye ga true
 
 
+//***************OPERATIONS**************//
+
+let value =3
+let negvalue = -value
+console.log(negvalue);
+
+//*********OUTPUT******
+-3
+
+
+
