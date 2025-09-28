@@ -1,5 +1,7 @@
 //  Primitive
 
+import { captureOwnerStack } from "react";
+
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
 const score = 100
@@ -35,3 +37,34 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+         //types of memory//
+//1:stack(primitive)**** //2: Heap(non-primitive)
+
+
+HEAP MAY: original value k andr hi change hota hota hy
+////////example////
+let userone{
+    email = "amnabiibi"
+}
+let usertwo = userone;
+  usertwo.email = "ssfef"
+ console.log(userone.email);
+ console.log(usertwo.email);
+ ///output/////
+ssfef
+ssfef
+ 
+  STACK MAY: copy milti hy value ki original value change nhi hoti
+  /////example/////
+  let youtubename = "amnababy";
+  let anothername = youtubename;
+  anothername = mughal;
+  console.log(youtubename);
+  console.log(anothername);
+  
+  /////output////
+  amnababy
+  mughal
+
